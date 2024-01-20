@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MT Tea</title>
+
+    <!-- ------------daisy ui setup---------- -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ------------manrope font----------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- -----font awesome ------->
+    <script src="https://kit.fontawesome.com/9e11ff2866.js" crossorigin="anonymous"></script>
+
+
+    <!-- -----------tailwind custom color---------- -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .man-font {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="man-font">
+
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+
+                <div>
+                    <h1 class="text-7xl font-extrabold">It's good<br> tea time at <br>The Tea House</h1>
+                    <p class="py-6 text-sm">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+                        Buds.</p>
+                    <button class="btn btn-primary">Explore More</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-sm" />
+                    <div class="flex flex-1 items-center gap-4 drop-shadow-lg py-5 w-60 justify-center rounded-xl -mt-16 bg-white ">
+
+                        <i class="fa-solid fa-star text-3xl " style="color: #FFDC64;"></i>
+                        <div>
+                            <h3 class="text-3xl font-extrabold">5.00</h3>
+                            <p class="text-sm font-semibold text-[#777]">Trust pilot rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <main>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+</body>
+
+</html>
